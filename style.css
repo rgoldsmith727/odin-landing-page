@@ -88,3 +88,11 @@ header {
 .quote-author {
   align-self: flex-end;
 }
+
+.call-to-action {
+  margin-top: 4rem; 
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
