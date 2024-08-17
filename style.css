@@ -19,10 +19,22 @@ a {
 header {
   display: flex;
   align-items: center;
+
+  background-color: #1F2937;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #F9FAF8;
 }
 
 .header-links {
   margin-left: auto;
+}
+
+.header-links a {
+  font-size: 18px;
+  color: #E5E7EB;
 }
 
 .header-links ul {
@@ -35,10 +47,23 @@ header {
   display: flex;
   align-items: center;
   gap: 2rem;
+
+  background-color: #1F2937;
 }
 
 .hero-left {
   max-width: 50%;
+}
+
+.hero-left h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
+.hero-left p {
+  font-size: 18px;
+  color: #E5E7EB;
 }
 
 .hero-right {
@@ -53,6 +78,9 @@ header {
 
 .information-header {
   text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
 }
 
 .information-boxes {
@@ -83,10 +111,23 @@ header {
 
   display: flex;
   flex-direction: column;
+
+  background-color: #E5E7EB;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1F2937;
 }
 
 .quote-author {
   align-self: flex-end;
+
+  font-weight: bold;
+  color: #1F2937;
+  font-size: 24px;
 }
 
 .call-to-action {
@@ -95,9 +136,19 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+
+  background-color: #3882F6;
 }
 
 footer {
   margin-top: 4rem;
   text-align: center;
+
+  background-color: #1F2937;
+  color: #fff;
+}
+
+button {
+  background-color: #3882F6;
+  color: #fff;
 }
