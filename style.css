@@ -133,7 +133,8 @@ header {
 }
 
 .call-to-action {
-  margin: 3rem 5rem;
+  margin: 5rem 10rem;
+  padding: 1rem 3rem;
   border-radius: 5px;
   
   display: flex;
@@ -142,6 +143,10 @@ header {
 
   background-color: #3882F6;
   color: #fff;
+}
+
+.call-to-action-left {
+  line-height: 0.1;
 }
 
 footer {
