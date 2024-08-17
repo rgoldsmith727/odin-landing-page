@@ -21,6 +21,8 @@ header {
   align-items: center;
 
   background-color: #1F2937;
+
+  padding: 1rem 5rem;
 }
 
 .header-logo {
@@ -43,12 +45,13 @@ header {
 }
 
 .hero {
-  margin-top: 4rem;
   display: flex;
   align-items: center;
   gap: 2rem;
 
   background-color: #1F2937;
+
+  padding: 1rem 5rem;
 }
 
 .hero-left {
@@ -73,7 +76,7 @@ header {
 }
 
 .information {
-  margin-top: 4rem;
+  padding: 1rem 8rem;
 }
 
 .information-header {
@@ -106,8 +109,7 @@ header {
 }
 
 .quote {
-  margin-top: 4rem;
-  padding: 1rem 5rem;
+  padding: 5rem 10rem;
 
   display: flex;
   flex-direction: column;
@@ -131,7 +133,8 @@ header {
 }
 
 .call-to-action {
-  margin-top: 4rem; 
+  margin: 3rem 5rem;
+  border-radius: 5px;
   
   display: flex;
   justify-content: space-around;
@@ -141,8 +144,8 @@ header {
 }
 
 footer {
-  margin-top: 4rem;
   text-align: center;
+  padding: 1rem 5rem;
 
   background-color: #1F2937;
   color: #fff;
