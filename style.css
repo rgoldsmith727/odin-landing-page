@@ -48,7 +48,7 @@ header {
 }
 
 .information {
-  margin-top: 4rem;;
+  margin-top: 4rem;
 }
 
 .information-header {
@@ -75,4 +75,16 @@ header {
 
 .information-text {
   text-align: center;
+}
+
+.quote {
+  margin-top: 4rem;
+  padding: 1rem 5rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-author {
+  align-self: flex-end;
 }
