@@ -160,4 +160,16 @@ footer {
 button {
   background-color: #3882F6;
   color: #fff;
+  font-weight: bold;
+
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+.hero-left button {
+  border: none;
+}
+
+.call-to-action-right button {
+  border: 1px solid #fff;
 }
