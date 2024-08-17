@@ -47,7 +47,6 @@ header {
 .hero {
   display: flex;
   align-items: center;
-  gap: 2rem;
 
   background-color: #1F2937;
 
@@ -56,6 +55,7 @@ header {
 
 .hero-left {
   max-width: 50%;
+  line-height: 1;
 }
 
 .hero-left h1 {
@@ -67,6 +67,8 @@ header {
 .hero-left p {
   font-size: 18px;
   color: #E5E7EB;
+  margin-top: -2rem;
+  margin-bottom: 0.25rem;
 }
 
 .hero-right {
